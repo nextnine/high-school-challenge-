@@ -1,0 +1,813 @@
+2025-03-26 21:02:35,980 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:02:35,981 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:02:35,981 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:02:35,987 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:06:34,182 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:06:34,182 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:06:34,182 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:06:34,185 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:06:34,208 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-03-26 21:06:57,393 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:06:57,393 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:06:57,393 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:06:57,397 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:28:08,341 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:28:08,341 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:28:08,341 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:28:08,349 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:31:56,410 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:31:56,410 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:31:56,410 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:31:56,417 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:32:19,130 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:32:19,130 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:32:19,131 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:32:19,137 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:32:55,054 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:32:55,054 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:32:55,054 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:32:55,061 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:33:43,318 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-03-26 21:33:43,318 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-03-26 21:33:43,318 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-03-26 21:33:43,324 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-26 21:47:29,983 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000020BA8E8B240>
+2025-03-26 21:47:29,985 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000020BA8E8B240> completed
+2025-03-26 21:47:29,986 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020BABF77B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000020BF8FB80E0>, deterministic=True)
+2025-03-26 21:47:29,986 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020BABF77B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000020BF8FB80E0>, deterministic=True) completed
+2025-03-26 21:47:29,986 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020BABF77B50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:47:29,986 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020BABF77B50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:47:29,987 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020BABF77B50>)
+2025-03-26 21:47:29,987 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020BABF77B50>) completed
+2025-03-26 21:47:29,987 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000020BABFEDE40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:47:29,988 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000020BABFEDE40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:47:29,988 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000020BABFEDE40>)
+2025-03-26 21:47:29,989 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000020BABFEDE40>) completed
+2025-03-26 21:47:29,989 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000020BABFEDE40>)
+2025-03-26 21:47:29,989 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000020BABFEDE40>) completed
+2025-03-26 21:47:29,989 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020BABF77B50>)
+2025-03-26 21:47:29,990 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020BABF77B50>) completed
+2025-03-26 21:47:29,990 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:47:29,991 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:47:29,991 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020BABF77B50>)
+2025-03-26 21:47:29,991 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020BABF77B50>) completed
+2025-03-26 21:47:29,992 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020BABF77B50>)
+2025-03-26 21:47:29,992 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020BABF77B50>) completed
+2025-03-26 21:48:39,961 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000002366063B240>
+2025-03-26 21:48:39,962 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000002366063B240> completed
+2025-03-26 21:48:39,962 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023663727B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000236309280E0>, deterministic=True)
+2025-03-26 21:48:39,962 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023663727B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000236309280E0>, deterministic=True) completed
+2025-03-26 21:48:39,963 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023663727B50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:48:39,963 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023663727B50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:48:39,964 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023663727B50>)
+2025-03-26 21:48:39,964 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023663727B50>) completed
+2025-03-26 21:48:39,964 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002366379DE40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:48:39,964 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002366379DE40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:48:39,964 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002366379DE40>)
+2025-03-26 21:48:39,964 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002366379DE40>) completed
+2025-03-26 21:48:39,965 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002366379DE40>)
+2025-03-26 21:48:39,965 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002366379DE40>) completed
+2025-03-26 21:48:39,965 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023663727B50>)
+2025-03-26 21:48:39,965 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023663727B50>) completed
+2025-03-26 21:48:39,965 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:48:39,965 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:48:39,966 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000023663727B50>)
+2025-03-26 21:48:39,966 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000023663727B50>) completed
+2025-03-26 21:48:39,966 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023663727B50>)
+2025-03-26 21:48:39,966 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023663727B50>) completed
+2025-03-26 21:50:49,819 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x00000298CC6AB380>
+2025-03-26 21:50:49,820 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x00000298CC6AB380> completed
+2025-03-26 21:50:49,820 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x00000298CF7A7B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002989C9C80E0>, deterministic=True)
+2025-03-26 21:50:49,820 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x00000298CF7A7B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002989C9C80E0>, deterministic=True) completed
+2025-03-26 21:50:49,821 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x00000298CF7A7B50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:50:49,821 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x00000298CF7A7B50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:50:49,821 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x00000298CF7A7B50>)
+2025-03-26 21:50:49,821 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x00000298CF7A7B50>) completed
+2025-03-26 21:50:49,821 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x00000298CF81DE40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:50:49,822 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x00000298CF81DE40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:50:49,822 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000298CF81DE40>)
+2025-03-26 21:50:49,822 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000298CF81DE40>) completed
+2025-03-26 21:50:49,822 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000298CF81DE40>)
+2025-03-26 21:50:49,822 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000298CF81DE40>) completed
+2025-03-26 21:50:49,823 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x00000298CF7A7B50>)
+2025-03-26 21:50:49,823 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x00000298CF7A7B50>) completed
+2025-03-26 21:50:49,823 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:50:49,823 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:50:49,824 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x00000298CF7A7B50>)
+2025-03-26 21:50:49,824 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x00000298CF7A7B50>) completed
+2025-03-26 21:50:49,825 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x00000298CF7A7B50>)
+2025-03-26 21:50:49,825 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x00000298CF7A7B50>) completed
+2025-03-26 21:50:49,825 - QaEngine - ERROR - Error: 模型加载失败: APILogger.log_request() missing 1 required positional argument: 'client'
+Traceback (most recent call last):
+  File "C:\Users\11041\Desktop\挑战杯\services\qa_engine.py", line 20, in initialize
+    logger.log_request("正在加载语言模型...")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: APILogger.log_request() missing 1 required positional argument: 'client'
+2025-03-26 21:51:33,726 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000002442C99B2E0>
+2025-03-26 21:51:33,726 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000002442C99B2E0> completed
+2025-03-26 21:51:33,728 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002442FA87B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002447CAD80E0>, deterministic=True)
+2025-03-26 21:51:33,728 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002442FA87B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002447CAD80E0>, deterministic=True) completed
+2025-03-26 21:51:33,728 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002442FA87B50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:51:33,729 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002442FA87B50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:51:33,729 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002442FA87B50>)
+2025-03-26 21:51:33,729 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002442FA87B50>) completed
+2025-03-26 21:51:33,729 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002442FAF1E40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:51:33,730 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002442FAF1E40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:51:33,731 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002442FAF1E40>)
+2025-03-26 21:51:33,731 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002442FAF1E40>) completed
+2025-03-26 21:51:33,731 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002442FAF1E40>)
+2025-03-26 21:51:33,731 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002442FAF1E40>) completed
+2025-03-26 21:51:33,732 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002442FA87B50>)
+2025-03-26 21:51:33,732 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002442FA87B50>) completed
+2025-03-26 21:51:33,733 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:51:33,734 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:51:33,734 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002442FA87B50>)
+2025-03-26 21:51:33,734 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002442FA87B50>) completed
+2025-03-26 21:51:33,734 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002442FA87B50>)
+2025-03-26 21:51:33,735 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002442FA87B50>) completed
+2025-03-26 21:51:33,735 - QaEngine - ERROR - Error: 模型加载失败: APILogger.log_request() missing 1 required positional argument: 'client'
+Traceback (most recent call last):
+  File "C:\Users\11041\Desktop\挑战杯\services\qa_engine.py", line 20, in initialize
+    logger.log_request("正在加载语言模型...")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: APILogger.log_request() missing 1 required positional argument: 'client'
+2025-03-26 21:51:54,348 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x00000180107972E0>
+2025-03-26 21:51:54,348 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x00000180107972E0> completed
+2025-03-26 21:51:54,349 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000018013887B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000180608A40E0>, deterministic=True)
+2025-03-26 21:51:54,349 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000018013887B50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000180608A40E0>, deterministic=True) completed
+2025-03-26 21:51:54,349 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000018013887B50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:51:54,349 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000018013887B50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:51:54,350 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000018013887B50>)
+2025-03-26 21:51:54,350 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000018013887B50>) completed
+2025-03-26 21:51:54,350 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x00000180138FDE40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:51:54,350 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x00000180138FDE40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:51:54,351 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000180138FDE40>)
+2025-03-26 21:51:54,351 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000180138FDE40>) completed
+2025-03-26 21:51:54,351 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000180138FDE40>)
+2025-03-26 21:51:54,351 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000180138FDE40>) completed
+2025-03-26 21:51:54,351 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000018013887B50>)
+2025-03-26 21:51:54,351 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000018013887B50>) completed
+2025-03-26 21:51:54,352 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:51:54,352 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:51:54,352 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000018013887B50>)
+2025-03-26 21:51:54,353 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000018013887B50>) completed
+2025-03-26 21:51:54,353 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000018013887B50>)
+2025-03-26 21:51:54,353 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000018013887B50>) completed
+2025-03-26 21:52:23,430 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000020811D9B240>
+2025-03-26 21:52:23,430 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000020811D9B240> completed
+2025-03-26 21:52:23,430 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020814E8BB50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000020861E880E0>, deterministic=True)
+2025-03-26 21:52:23,430 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020814E8BB50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000020861E880E0>, deterministic=True) completed
+2025-03-26 21:52:23,431 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020814E8BB50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:52:23,431 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020814E8BB50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:52:23,431 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020814E8BB50>)
+2025-03-26 21:52:23,431 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020814E8BB50>) completed
+2025-03-26 21:52:23,431 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000020814EF5E40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000020814EF5E40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000020814EF5E40>)
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000020814EF5E40>) completed
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000020814EF5E40>)
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000020814EF5E40>) completed
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020814E8BB50>)
+2025-03-26 21:52:23,432 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020814E8BB50>) completed
+2025-03-26 21:52:23,433 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:52:23,433 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:52:23,433 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020814E8BB50>)
+2025-03-26 21:52:23,434 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020814E8BB50>) completed
+2025-03-26 21:52:23,435 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020814E8BB50>)
+2025-03-26 21:52:23,435 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020814E8BB50>) completed
+2025-03-26 21:56:44,086 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000023B52F83BA0>
+2025-03-26 21:56:44,086 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000023B52F83BA0> completed
+2025-03-26 21:56:44,087 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023B08E83D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000023B55FB82C0>, deterministic=True)
+2025-03-26 21:56:44,087 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023B08E83D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000023B55FB82C0>, deterministic=True) completed
+2025-03-26 21:56:44,087 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023B08E83D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023B08E83D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023B08E83D30>)
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023B08E83D30>) completed
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023B08EFE040>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023B08EFE040>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023B08EFE040>)
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023B08EFE040>) completed
+2025-03-26 21:56:44,088 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023B08EFE040>)
+2025-03-26 21:56:44,089 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023B08EFE040>) completed
+2025-03-26 21:56:44,089 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023B08E83D30>)
+2025-03-26 21:56:44,089 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023B08E83D30>) completed
+2025-03-26 21:56:44,089 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:56:44,089 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:56:44,089 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000023B08E83D30>)
+2025-03-26 21:56:44,089 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000023B08E83D30>) completed
+2025-03-26 21:56:44,090 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023B08E83D30>)
+2025-03-26 21:56:44,090 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023B08E83D30>) completed
+2025-03-26 21:56:44,090 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 21:56:44,092 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 21:56:44,543 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 21:56:44,548 - filelock - DEBUG - Attempting to acquire lock 2452575270768 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c9d5816f8c7d345e5d899a511311af404a3bb383.lock
+2025-03-26 21:56:44,549 - filelock - DEBUG - Lock 2452575270768 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c9d5816f8c7d345e5d899a511311af404a3bb383.lock
+2025-03-26 21:56:44,784 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 655
+2025-03-26 21:56:44,825 - filelock - DEBUG - Attempting to release lock 2452575270768 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c9d5816f8c7d345e5d899a511311af404a3bb383.lock
+2025-03-26 21:56:44,826 - filelock - DEBUG - Lock 2452575270768 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c9d5816f8c7d345e5d899a511311af404a3bb383.lock
+2025-03-26 21:56:45,085 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer.model HTTP/1.1" 404 0
+2025-03-26 21:56:45,330 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2025-03-26 21:56:45,332 - filelock - DEBUG - Attempting to acquire lock 2452576312272 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\8b284e5afe1730e31c97ed5c3bdf240adbd15c86.lock
+2025-03-26 21:56:45,333 - filelock - DEBUG - Lock 2452576312272 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\8b284e5afe1730e31c97ed5c3bdf240adbd15c86.lock
+2025-03-26 21:56:45,637 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer.json HTTP/1.1" 200 4607451
+2025-03-26 21:56:46,949 - filelock - DEBUG - Attempting to release lock 2452576312272 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\8b284e5afe1730e31c97ed5c3bdf240adbd15c86.lock
+2025-03-26 21:56:46,949 - filelock - DEBUG - Lock 2452576312272 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\8b284e5afe1730e31c97ed5c3bdf240adbd15c86.lock
+2025-03-26 21:56:47,175 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2025-03-26 21:56:47,404 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2025-03-26 21:56:47,632 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+2025-03-26 21:56:47,930 - QaEngine - ERROR - 模型加载失败: module 'torch' has no attribute 'fp16'
+2025-03-26 21:56:58,758 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x00000282D2FE3BA0>
+2025-03-26 21:56:58,758 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x00000282D2FE3BA0> completed
+2025-03-26 21:56:58,758 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028288E77D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000282D5F54360>, deterministic=True)
+2025-03-26 21:56:58,759 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028288E77D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000282D5F54360>, deterministic=True) completed
+2025-03-26 21:56:58,759 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028288E77D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:56:58,759 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028288E77D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:56:58,759 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000028288E77D30>)
+2025-03-26 21:56:58,759 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000028288E77D30>) completed
+2025-03-26 21:56:58,759 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000028288EEDFC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:56:58,760 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000028288EEDFC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:56:58,760 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000028288EEDFC0>)
+2025-03-26 21:56:58,760 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000028288EEDFC0>) completed
+2025-03-26 21:56:58,760 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000028288EEDFC0>)
+2025-03-26 21:56:58,760 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000028288EEDFC0>) completed
+2025-03-26 21:56:58,760 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028288E77D30>)
+2025-03-26 21:56:58,761 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028288E77D30>) completed
+2025-03-26 21:56:58,761 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:56:58,762 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:56:58,762 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000028288E77D30>)
+2025-03-26 21:56:58,762 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000028288E77D30>) completed
+2025-03-26 21:56:58,762 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028288E77D30>)
+2025-03-26 21:56:58,762 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028288E77D30>) completed
+2025-03-26 21:56:58,763 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 21:56:58,765 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 21:56:59,269 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 21:56:59,461 - QaEngine - ERROR - 模型加载失败: module 'torch' has no attribute 'fp16'
+2025-03-26 21:59:55,015 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000022EC9F93BA0>
+2025-03-26 21:59:55,015 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000022EC9F93BA0> completed
+2025-03-26 21:59:55,015 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000022EFFD0FD30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000022ECCF38360>, deterministic=True)
+2025-03-26 21:59:55,016 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000022EFFD0FD30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000022ECCF38360>, deterministic=True) completed
+2025-03-26 21:59:55,016 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000022EFFD0FD30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 21:59:55,016 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000022EFFD0FD30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 21:59:55,016 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000022EFFD0FD30>)
+2025-03-26 21:59:55,017 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000022EFFD0FD30>) completed
+2025-03-26 21:59:55,017 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000022EFFD8DFC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 21:59:55,017 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000022EFFD8DFC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 21:59:55,018 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000022EFFD8DFC0>)
+2025-03-26 21:59:55,018 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000022EFFD8DFC0>) completed
+2025-03-26 21:59:55,018 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000022EFFD8DFC0>)
+2025-03-26 21:59:55,018 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000022EFFD8DFC0>) completed
+2025-03-26 21:59:55,018 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000022EFFD0FD30>)
+2025-03-26 21:59:55,018 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000022EFFD0FD30>) completed
+2025-03-26 21:59:55,019 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 21:59:55,019 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 21:59:55,019 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000022EFFD0FD30>)
+2025-03-26 21:59:55,019 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000022EFFD0FD30>) completed
+2025-03-26 21:59:55,020 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000022EFFD0FD30>)
+2025-03-26 21:59:55,020 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000022EFFD0FD30>) completed
+2025-03-26 21:59:55,020 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 21:59:55,025 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 21:59:55,611 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 21:59:55,786 - QaEngine - ERROR - 模型加载失败: module 'torch' has no attribute 'fp16'
+2025-03-26 22:02:25,713 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000028B5BA53BA0>
+2025-03-26 22:02:25,714 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000028B5BA53BA0> completed
+2025-03-26 22:02:25,714 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028B11983D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000028B5EA04360>, deterministic=True)
+2025-03-26 22:02:25,714 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028B11983D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000028B5EA04360>, deterministic=True) completed
+2025-03-26 22:02:25,715 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028B11983D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:02:25,715 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000028B11983D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:02:25,715 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000028B11983D30>)
+2025-03-26 22:02:25,715 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000028B11983D30>) completed
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000028B119F1FC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000028B119F1FC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000028B119F1FC0>)
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000028B119F1FC0>) completed
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000028B119F1FC0>)
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000028B119F1FC0>) completed
+2025-03-26 22:02:25,716 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028B11983D30>)
+2025-03-26 22:02:25,717 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028B11983D30>) completed
+2025-03-26 22:02:25,717 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:02:25,717 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:02:25,718 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000028B11983D30>)
+2025-03-26 22:02:25,718 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000028B11983D30>) completed
+2025-03-26 22:02:25,718 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028B11983D30>)
+2025-03-26 22:02:25,719 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000028B11983D30>) completed
+2025-03-26 22:02:25,719 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:02:25,721 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:02:26,145 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:02:26,330 - QaEngine - ERROR - 模型加载失败: module 'torch' has no attribute 'fp16'
+2025-03-26 22:04:28,426 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000002040B063BA0>
+2025-03-26 22:04:28,426 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000002040B063BA0> completed
+2025-03-26 22:04:28,427 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020440DE3D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002040DFF42C0>, deterministic=True)
+2025-03-26 22:04:28,427 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020440DE3D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002040DFF42C0>, deterministic=True) completed
+2025-03-26 22:04:28,428 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020440DE3D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:04:28,428 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020440DE3D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:04:28,428 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020440DE3D30>)
+2025-03-26 22:04:28,429 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020440DE3D30>) completed
+2025-03-26 22:04:28,429 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000020440E51FC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:04:28,429 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000020440E51FC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:04:28,430 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000020440E51FC0>)
+2025-03-26 22:04:28,430 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000020440E51FC0>) completed
+2025-03-26 22:04:28,430 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000020440E51FC0>)
+2025-03-26 22:04:28,430 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000020440E51FC0>) completed
+2025-03-26 22:04:28,431 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020440DE3D30>)
+2025-03-26 22:04:28,431 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020440DE3D30>) completed
+2025-03-26 22:04:28,431 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:04:28,432 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:04:28,432 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020440DE3D30>)
+2025-03-26 22:04:28,433 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020440DE3D30>) completed
+2025-03-26 22:04:28,433 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020440DE3D30>)
+2025-03-26 22:04:28,433 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020440DE3D30>) completed
+2025-03-26 22:04:28,434 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:04:28,437 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:04:28,779 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:04:29,206 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 22:04:29,207 - filelock - DEBUG - Attempting to acquire lock 2217207881344 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c7ec540a0bea43211102776010779525e60a36d0.lock
+2025-03-26 22:04:29,208 - filelock - DEBUG - Lock 2217207881344 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c7ec540a0bea43211102776010779525e60a36d0.lock
+2025-03-26 22:04:29,448 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 594
+2025-03-26 22:04:29,457 - filelock - DEBUG - Attempting to release lock 2217207881344 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c7ec540a0bea43211102776010779525e60a36d0.lock
+2025-03-26 22:04:29,457 - filelock - DEBUG - Lock 2217207881344 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c7ec540a0bea43211102776010779525e60a36d0.lock
+2025-03-26 22:04:29,625 - QaEngine - ERROR - 模型加载失败: Using `low_cpu_mem_usage=True`, a `device_map` or a `tp_plan` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+2025-03-26 22:04:36,446 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x00000207701D3BA0>
+2025-03-26 22:04:36,447 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x00000207701D3BA0> completed
+2025-03-26 22:04:36,447 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020726083D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000207731C82C0>, deterministic=True)
+2025-03-26 22:04:36,447 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020726083D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000207731C82C0>, deterministic=True) completed
+2025-03-26 22:04:36,447 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020726083D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:04:36,448 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000020726083D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:04:36,448 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020726083D30>)
+2025-03-26 22:04:36,448 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000020726083D30>) completed
+2025-03-26 22:04:36,449 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x00000207260FDFC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:04:36,450 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x00000207260FDFC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:04:36,450 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000207260FDFC0>)
+2025-03-26 22:04:36,450 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000207260FDFC0>) completed
+2025-03-26 22:04:36,451 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000207260FDFC0>)
+2025-03-26 22:04:36,451 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000207260FDFC0>) completed
+2025-03-26 22:04:36,451 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020726083D30>)
+2025-03-26 22:04:36,451 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020726083D30>) completed
+2025-03-26 22:04:36,452 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:04:36,452 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:04:36,452 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020726083D30>)
+2025-03-26 22:04:36,452 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000020726083D30>) completed
+2025-03-26 22:04:36,453 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020726083D30>)
+2025-03-26 22:04:36,453 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000020726083D30>) completed
+2025-03-26 22:04:36,453 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:04:36,455 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:04:36,837 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:04:37,292 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 22:04:37,392 - QaEngine - ERROR - 模型加载失败: Using `low_cpu_mem_usage=True`, a `device_map` or a `tp_plan` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+2025-03-26 22:04:45,578 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001B26B8A3BA0>
+2025-03-26 22:04:45,578 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001B26B8A3BA0> completed
+2025-03-26 22:04:45,578 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001B221783D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001B26E8E8360>, deterministic=True)
+2025-03-26 22:04:45,579 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001B221783D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001B26E8E8360>, deterministic=True) completed
+2025-03-26 22:04:45,579 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001B221783D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:04:45,579 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001B221783D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:04:45,579 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001B221783D30>)
+2025-03-26 22:04:45,579 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001B221783D30>) completed
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001B2217FDFC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001B2217FDFC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001B2217FDFC0>)
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001B2217FDFC0>) completed
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001B2217FDFC0>)
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001B2217FDFC0>) completed
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001B221783D30>)
+2025-03-26 22:04:45,580 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001B221783D30>) completed
+2025-03-26 22:04:45,581 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:04:45,581 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:04:45,582 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001B221783D30>)
+2025-03-26 22:04:45,582 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001B221783D30>) completed
+2025-03-26 22:04:45,582 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001B221783D30>)
+2025-03-26 22:04:45,583 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001B221783D30>) completed
+2025-03-26 22:04:45,583 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:04:45,586 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:04:45,981 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:04:46,683 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 22:04:46,784 - QaEngine - ERROR - 模型加载失败: Using `low_cpu_mem_usage=True`, a `device_map` or a `tp_plan` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+2025-03-26 22:05:47,752 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001A7B5037F60>
+2025-03-26 22:05:47,752 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001A7B5037F60> completed
+2025-03-26 22:05:47,753 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001A7B504E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001A782068360>, deterministic=True)
+2025-03-26 22:05:47,753 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001A7B504E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001A782068360>, deterministic=True) completed
+2025-03-26 22:05:47,753 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001A7B504E2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:05:47,754 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001A7B504E2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:05:47,754 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001A7B504E2F0>)
+2025-03-26 22:05:47,754 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001A7B504E2F0>) completed
+2025-03-26 22:05:47,755 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001A7B503FF40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:05:47,755 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001A7B503FF40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:05:47,755 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001A7B503FF40>)
+2025-03-26 22:05:47,756 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001A7B503FF40>) completed
+2025-03-26 22:05:47,757 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001A7B503FF40>)
+2025-03-26 22:05:47,757 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001A7B503FF40>) completed
+2025-03-26 22:05:47,757 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001A7B504E2F0>)
+2025-03-26 22:05:47,757 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001A7B504E2F0>) completed
+2025-03-26 22:05:47,758 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:05:47,759 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:05:47,759 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001A7B504E2F0>)
+2025-03-26 22:05:47,759 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001A7B504E2F0>) completed
+2025-03-26 22:05:47,759 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001A7B504E2F0>)
+2025-03-26 22:05:47,760 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001A7B504E2F0>) completed
+2025-03-26 22:05:47,760 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:05:47,762 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:05:48,423 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:05:48,853 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 22:05:49,250 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/model.safetensors HTTP/1.1" 404 0
+2025-03-26 22:05:49,483 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/model.safetensors.index.json HTTP/1.1" 404 0
+2025-03-26 22:05:49,708 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/pytorch_model.bin HTTP/1.1" 404 0
+2025-03-26 22:05:49,965 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 0
+2025-03-26 22:05:49,967 - filelock - DEBUG - Attempting to acquire lock 1819851791328 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\ce6094ab4c40400eca5963470784235f52b7e843.lock
+2025-03-26 22:05:49,968 - filelock - DEBUG - Lock 1819851791328 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\ce6094ab4c40400eca5963470784235f52b7e843.lock
+2025-03-26 22:05:50,218 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /deepseek-ai/deepseek-math-7b-base/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 22464
+2025-03-26 22:05:50,225 - filelock - DEBUG - Attempting to release lock 1819851791328 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\ce6094ab4c40400eca5963470784235f52b7e843.lock
+2025-03-26 22:05:50,226 - filelock - DEBUG - Lock 1819851791328 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\ce6094ab4c40400eca5963470784235f52b7e843.lock
+2025-03-26 22:05:50,459 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/model.safetensors.index.json HTTP/1.1" 404 0
+2025-03-26 22:05:50,461 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:05:50,716 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/main HTTP/1.1" 200 2034
+2025-03-26 22:05:50,736 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:05:50,736 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:05:50,845 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 22:05:51,090 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/036a8c6189aac6e2fc4e07b46e1e57c6b647bca5/pytorch_model-00002-of-00002.bin HTTP/1.1" 302 0
+2025-03-26 22:05:51,091 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/036a8c6189aac6e2fc4e07b46e1e57c6b647bca5/pytorch_model-00001-of-00002.bin HTTP/1.1" 302 0
+2025-03-26 22:05:51,092 - filelock - DEBUG - Attempting to acquire lock 1819810537360 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\3fd4d84547528f425caa19f084d05afd9c74415a58689e2cc38f61cbeb81136f.lock
+2025-03-26 22:05:51,093 - filelock - DEBUG - Attempting to acquire lock 1819810538000 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c6d128ec6c9d6d7e4ca849810c4e60ce30d004123fcda8fd5e33c22ccbc73bd9.lock
+2025-03-26 22:05:51,093 - filelock - DEBUG - Lock 1819810537360 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\3fd4d84547528f425caa19f084d05afd9c74415a58689e2cc38f61cbeb81136f.lock
+2025-03-26 22:05:51,094 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:05:51,097 - filelock - DEBUG - Lock 1819810538000 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c6d128ec6c9d6d7e4ca849810c4e60ce30d004123fcda8fd5e33c22ccbc73bd9.lock
+2025-03-26 22:05:51,099 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:05:51,107 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 22:05:51,342 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 22:05:51,577 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/3fd4d84547528f425caa19f084d05afd9c74415a58689e2cc38f61cbeb81136f?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model-00002-of-00002.bin%3B+filename%3D%22pytorch_model-00002-of-00002.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1743001550&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwMTU1MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvM2ZkNGQ4NDU0NzUyOGY0MjVjYWExOWYwODRkMDVhZmQ5Yzc0NDE1YTU4Njg5ZTJjYzM4ZjYxY2JlYjgxMTM2Zj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=QdIkEce2raRfNEO5MxSyo8iVNNn4Jj6MO5dsXDWLACOlo9AKVrR4fkAv09Y4Xtb3huCftVZVrYK8MEOjv2eVHfqjsF3t-YWs2l30Eml4Sm15ReOC2rrYPgr6j8F4lyGD43LLbKjXVV2MhNW9ufJfRC52Qn0cXpYExb8yGLGyZwkbh5eJZYc6TVq3lJCpryio5tCferkNRwbtoyQH3SCnVJpge8Z0E8~itL4sNDSOAv~3lWo18QjSDunmJ95KZKJPXKiKkoUou-RRid37rex0YjTaGLXry0jkf1gJ9ukGNHELBY5TFJ98CAqBg6wTQGvvRxP1yyU5a0UAo9-P~2LglQ__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 3852630633
+2025-03-26 22:05:51,595 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/c6d128ec6c9d6d7e4ca849810c4e60ce30d004123fcda8fd5e33c22ccbc73bd9?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model-00001-of-00002.bin%3B+filename%3D%22pytorch_model-00001-of-00002.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1743001550&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwMTU1MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYzZkMTI4ZWM2YzlkNmQ3ZTRjYTg0OTgxMGM0ZTYwY2UzMGQwMDQxMjNmY2RhOGZkNWUzM2MyMmNjYmM3M2JkOT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=SAR~M1j3swEB6JOXq5xDzXNrD-q3BLd3xLwWB5p2UumYvQeTIXCKMbMY08GUy6Lh9XAawijOAr02s28Og3c-HejJREI0Mvyh9zt73KQxErN-o7p67lGFo6GbVRrPKDp87vALRq3Uv3YWoRiXaUF3I7btpbNbPcgMgIw3LiafBqTB~fOH7ii5YaB8cAbLvY8-Sof9nQMCVH3V-Bpo003l~tQXYp3~6EqhvIemuOgND3JtIwqvTEtWXtCXWGlvKpqGpgEzVy5ab5CqqZDkHdhmmIHHRga26V~Hs~hWtbLuzBwZL09acrzLVQnBl~geC3CspjIUq03QC6GA~JbjuZ-g3Q__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 9968194327
+2025-03-26 22:05:51,726 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 22:05:52,050 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 22:05:52,306 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 22:05:52,308 - filelock - DEBUG - Attempting to acquire lock 1819810009936 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\9f53eec0d3c296aa378d612012a7c7f72d1be696.lock
+2025-03-26 22:05:52,308 - filelock - DEBUG - Lock 1819810009936 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\9f53eec0d3c296aa378d612012a7c7f72d1be696.lock
+2025-03-26 22:05:52,554 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 23567
+2025-03-26 22:05:52,563 - filelock - DEBUG - Attempting to release lock 1819810009936 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\9f53eec0d3c296aa378d612012a7c7f72d1be696.lock
+2025-03-26 22:05:52,565 - filelock - DEBUG - Lock 1819810009936 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\9f53eec0d3c296aa378d612012a7c7f72d1be696.lock
+2025-03-26 22:23:43,994 - filelock - DEBUG - Attempting to release lock 1819810537360 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\3fd4d84547528f425caa19f084d05afd9c74415a58689e2cc38f61cbeb81136f.lock
+2025-03-26 22:23:43,994 - filelock - DEBUG - Lock 1819810537360 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\3fd4d84547528f425caa19f084d05afd9c74415a58689e2cc38f61cbeb81136f.lock
+2025-03-26 22:35:18,179 - filelock - DEBUG - Attempting to release lock 1819810538000 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c6d128ec6c9d6d7e4ca849810c4e60ce30d004123fcda8fd5e33c22ccbc73bd9.lock
+2025-03-26 22:35:18,179 - filelock - DEBUG - Lock 1819810538000 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\c6d128ec6c9d6d7e4ca849810c4e60ce30d004123fcda8fd5e33c22ccbc73bd9.lock
+2025-03-26 22:35:18,315 - QaEngine - ERROR - 模型加载失败: The current `device_map` had weights offloaded to the disk. Please provide an `offload_folder` for them. Alternatively, make sure you have `safetensors` installed if the model you are using offers the weights in this format.
+2025-03-26 22:56:56,669 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000002308D477E20>
+2025-03-26 22:56:56,669 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000002308D477E20> completed
+2025-03-26 22:56:56,670 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002308D48E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000230DA3582C0>, deterministic=True)
+2025-03-26 22:56:56,670 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002308D48E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000230DA3582C0>, deterministic=True) completed
+2025-03-26 22:56:56,670 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002308D48E2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:56:56,670 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002308D48E2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:56:56,670 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002308D48E2F0>)
+2025-03-26 22:56:56,670 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002308D48E2F0>) completed
+2025-03-26 22:56:56,671 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002308D49ADC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:56:56,671 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002308D49ADC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:56:56,671 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002308D49ADC0>)
+2025-03-26 22:56:56,671 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002308D49ADC0>) completed
+2025-03-26 22:56:56,671 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002308D49ADC0>)
+2025-03-26 22:56:56,671 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002308D49ADC0>) completed
+2025-03-26 22:56:56,672 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002308D48E2F0>)
+2025-03-26 22:56:56,672 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002308D48E2F0>) completed
+2025-03-26 22:56:56,672 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:56:56,672 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:56:56,673 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002308D48E2F0>)
+2025-03-26 22:56:56,673 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002308D48E2F0>) completed
+2025-03-26 22:56:56,673 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002308D48E2F0>)
+2025-03-26 22:56:56,673 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002308D48E2F0>) completed
+2025-03-26 22:56:56,674 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:56:56,677 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:57:02,536 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:57:03,059 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 22:57:03,540 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 22:57:03,882 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 22:57:04,742 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 22:57:05,134 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 22:57:06,024 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 22:57:06,334 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 22:57:06,753 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 22:57:06,757 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:57:06,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:57:07,880 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/6779f1b605fed54c5115ab537563ac0943c265fe/model-00002-of-00002.safetensors HTTP/1.1" 302 0
+2025-03-26 22:57:07,881 - filelock - DEBUG - Attempting to acquire lock 2407554322448 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 22:57:07,882 - filelock - DEBUG - Lock 2407554322448 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 22:57:07,884 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:57:08,557 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/6779f1b605fed54c5115ab537563ac0943c265fe/model-00001-of-00002.safetensors HTTP/1.1" 302 0
+2025-03-26 22:57:08,559 - filelock - DEBUG - Attempting to acquire lock 2407554338960 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 22:57:08,559 - filelock - DEBUG - Lock 2407554338960 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 22:57:08,561 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:57:09,186 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00002.safetensors%3B+filename%3D%22model-00002-of-00002.safetensors%22%3B&Expires=1743004627&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDYyN319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYTA0YjM1YjY2N2NjNDdmY2VjNjdlY2MxMGRlNDM4ZGY3MDAyM2ZhMjJhNmI0ZmI2OGY1MDc5ZWQ2Nzg5ZjE3Nj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=X4p4Gykt25syi3kDY1WSW~lhD21W0nZMhGTNWWwQZ3651j7juXXuYD1DG93vGkD8blx3VONm3yUJqWJM03BKItTH6H-vliwxtHW9a0N4WsLnUW3RbZqwa0BNMYCZqM1LRT-zSPuFkqapXVanC3-poDLEiPAO7Wid5dL6sv8w3PP58vNEe4aDoOMrDZ4SXV-FZ8UPiTVFHDQ5kh3UUQ0-uaf1TIUsdHF-A8-Se6ZAhlVxP1EdaiRmVw4iJ8RgMvQgsFzRZkuQ9CtSaU5Q4iWoi1xIL8KAdB99PLYSbe1lzKSzFmlYLvUG9xNX1v3UFkGyDgbJpZcQ~dq6biSbjLobUg__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 3852615520
+2025-03-26 22:57:10,390 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1743004627&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDYyN319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYjhlOTYzMzJmM2NkY2RiZDFmNGVkMTJjZjk0N2M1YTdjMWJiZTY1MWE5YzYzODAyZDg3ZWUxMThlMzQxZGMwND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=OcGFXggzwm1JogSxJ6Lm7BhUu6JJBfD3zUt8JhaxdDUrL1~4MKovo4NC5KeTQ5JDw8EP549usbT4-OdhCw~Ly3iHh4Jg-uwnAhRzb1Ybv0f5HVjIbc1hMyHdncEcezqsa7CU8-urGIaHYZf7F942j5t1hYegl9jRIMwu-pE6eCMnhkvDyPPJwtP2Ks8Iz82vACtmD5jFHs0f-AeWE2Umv90NWNkBjz1~6tOIj-OZZdFawSxYGKIdPWrDTWS2x1Y6fVhtY3EvCkwF2-E1yxbWS1U7lblV6xLNBv-U9hqI9zLNh5JmM6yZQ86UXH5FzmxRFP5EV58wabMJnMNKvOjETA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 9968147656
+2025-03-26 22:58:12,265 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000021043117F60>
+2025-03-26 22:58:12,265 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000021043117F60> completed
+2025-03-26 22:58:12,266 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002104312E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000021010188360>, deterministic=True)
+2025-03-26 22:58:12,266 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002104312E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000021010188360>, deterministic=True) completed
+2025-03-26 22:58:12,267 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002104312E2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 22:58:12,267 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002104312E2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 22:58:12,267 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002104312E2F0>)
+2025-03-26 22:58:12,267 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002104312E2F0>) completed
+2025-03-26 22:58:12,267 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002104313ADC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 22:58:12,268 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002104313ADC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 22:58:12,268 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002104313ADC0>)
+2025-03-26 22:58:12,268 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002104313ADC0>) completed
+2025-03-26 22:58:12,268 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002104313ADC0>)
+2025-03-26 22:58:12,268 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002104313ADC0>) completed
+2025-03-26 22:58:12,269 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002104312E2F0>)
+2025-03-26 22:58:12,269 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002104312E2F0>) completed
+2025-03-26 22:58:12,269 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 22:58:12,270 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 22:58:12,270 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002104312E2F0>)
+2025-03-26 22:58:12,270 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002104312E2F0>) completed
+2025-03-26 22:58:12,271 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002104312E2F0>)
+2025-03-26 22:58:12,271 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002104312E2F0>) completed
+2025-03-26 22:58:12,271 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 22:58:12,274 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:58:13,060 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 22:58:13,576 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 22:58:13,990 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 22:58:14,375 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 22:58:14,713 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 22:58:15,048 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 22:58:15,377 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 22:58:16,060 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 22:58:16,426 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 22:58:16,431 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:58:16,432 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 22:58:17,592 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/6779f1b605fed54c5115ab537563ac0943c265fe/model-00002-of-00002.safetensors HTTP/1.1" 302 0
+2025-03-26 22:58:17,594 - filelock - DEBUG - Attempting to acquire lock 2268870299664 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 22:58:17,594 - filelock - DEBUG - Lock 2268870299664 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 22:58:17,595 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:58:18,675 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/6779f1b605fed54c5115ab537563ac0943c265fe/model-00001-of-00002.safetensors HTTP/1.1" 302 0
+2025-03-26 22:58:18,677 - filelock - DEBUG - Attempting to acquire lock 2268870317456 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 22:58:18,677 - filelock - DEBUG - Lock 2268870317456 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 22:58:18,679 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:58:20,289 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1743004698&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDY5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYjhlOTYzMzJmM2NkY2RiZDFmNGVkMTJjZjk0N2M1YTdjMWJiZTY1MWE5YzYzODAyZDg3ZWUxMThlMzQxZGMwND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Sf0o6ALzk~U2q-IgMJXdTJHjLxW87kyCJkFcXV56PApOQdrXetOLLT~yXVu4UahDCyxjTJzKDjOWUwEvWsV84tfY25QBQMeXvWaVnBoH0keyFH9vnEx22HAloz4PQ2yH55W~dk501sKvVwjASARp7ARQ8JLUsHLnrzsSwO7NUuLHzJuko4fJTwg1cBcMdbc7f-3AkuA4hKtaxBSPFR6DJJwnX6NAJ8EGAD3P~cTCDpiJyrzaXsLUbydQwc9BXZoSNAC6kmZl4HS~v6vQEx1iZhjMGgFtzdYIj8CrW6WmGRcjN1WfLAZQETMZsDg4ai08T1lhKg0w~1w8Owm~r1gE5A__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 9968147656
+2025-03-26 22:58:22,414 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00002.safetensors%3B+filename%3D%22model-00002-of-00002.safetensors%22%3B&Expires=1743004697&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDY5N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYTA0YjM1YjY2N2NjNDdmY2VjNjdlY2MxMGRlNDM4ZGY3MDAyM2ZhMjJhNmI0ZmI2OGY1MDc5ZWQ2Nzg5ZjE3Nj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=HoOcucPUeNDQyi9pBLLDkKjgLZOHL9uv3ZTnxHek15opkTn6~FcXHhrh7QldcnBRyY85NO0TzuERgt8FGhjXnebHNhYEiLpYfp38KQ7wXJhkw-M3zDGKGN85o2sClIiD2D-qfLVOeya-odzK38c3IRvNBEp6GgGvmUVDqgt8rz1laHDMtT6UjKQF-ZlfB5DN1XVXwCG4s2MLt-8aIEEmkyMKxo9Jg3hvTrnQWlCF2VF23Nvdr1iq7gfh4mNyswr4tsWUavzlB6yjO4QdHWMWydo5MHNCkUTiyd1wNcWZSQLmgt2A-y0Af8mi-58t~WB5mcA0xPV~yIE4E3mapusT7A__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 206 3842129760
+2025-03-26 22:59:31,495 - huggingface_hub.file_download - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1743004698&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDY5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYjhlOTYzMzJmM2NkY2RiZDFmNGVkMTJjZjk0N2M1YTdjMWJiZTY1MWE5YzYzODAyZDg3ZWUxMThlMzQxZGMwND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Sf0o6ALzk%7EU2q-IgMJXdTJHjLxW87kyCJkFcXV56PApOQdrXetOLLT%7EyXVu4UahDCyxjTJzKDjOWUwEvWsV84tfY25QBQMeXvWaVnBoH0keyFH9vnEx22HAloz4PQ2yH55W%7Edk501sKvVwjASARp7ARQ8JLUsHLnrzsSwO7NUuLHzJuko4fJTwg1cBcMdbc7f-3AkuA4hKtaxBSPFR6DJJwnX6NAJ8EGAD3P%7EcTCDpiJyrzaXsLUbydQwc9BXZoSNAC6kmZl4HS%7Ev6vQEx1iZhjMGgFtzdYIj8CrW6WmGRcjN1WfLAZQETMZsDg4ai08T1lhKg0w%7E1w8Owm%7Er1gE5A__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-03-26 22:59:32,497 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 22:59:35,928 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1743004698&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDY5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYjhlOTYzMzJmM2NkY2RiZDFmNGVkMTJjZjk0N2M1YTdjMWJiZTY1MWE5YzYzODAyZDg3ZWUxMThlMzQxZGMwND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Sf0o6ALzk~U2q-IgMJXdTJHjLxW87kyCJkFcXV56PApOQdrXetOLLT~yXVu4UahDCyxjTJzKDjOWUwEvWsV84tfY25QBQMeXvWaVnBoH0keyFH9vnEx22HAloz4PQ2yH55W~dk501sKvVwjASARp7ARQ8JLUsHLnrzsSwO7NUuLHzJuko4fJTwg1cBcMdbc7f-3AkuA4hKtaxBSPFR6DJJwnX6NAJ8EGAD3P~cTCDpiJyrzaXsLUbydQwc9BXZoSNAC6kmZl4HS~v6vQEx1iZhjMGgFtzdYIj8CrW6WmGRcjN1WfLAZQETMZsDg4ai08T1lhKg0w~1w8Owm~r1gE5A__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 206 9223658696
+2025-03-26 23:00:10,244 - huggingface_hub.file_download - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1743004698&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDY5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYjhlOTYzMzJmM2NkY2RiZDFmNGVkMTJjZjk0N2M1YTdjMWJiZTY1MWE5YzYzODAyZDg3ZWUxMThlMzQxZGMwND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Sf0o6ALzk%7EU2q-IgMJXdTJHjLxW87kyCJkFcXV56PApOQdrXetOLLT%7EyXVu4UahDCyxjTJzKDjOWUwEvWsV84tfY25QBQMeXvWaVnBoH0keyFH9vnEx22HAloz4PQ2yH55W%7Edk501sKvVwjASARp7ARQ8JLUsHLnrzsSwO7NUuLHzJuko4fJTwg1cBcMdbc7f-3AkuA4hKtaxBSPFR6DJJwnX6NAJ8EGAD3P%7EcTCDpiJyrzaXsLUbydQwc9BXZoSNAC6kmZl4HS%7Ev6vQEx1iZhjMGgFtzdYIj8CrW6WmGRcjN1WfLAZQETMZsDg4ai08T1lhKg0w%7E1w8Owm%7Er1gE5A__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-03-26 23:00:11,246 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 23:00:12,549 - huggingface_hub.file_download - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00002.safetensors%3B+filename%3D%22model-00002-of-00002.safetensors%22%3B&Expires=1743004697&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDY5N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYTA0YjM1YjY2N2NjNDdmY2VjNjdlY2MxMGRlNDM4ZGY3MDAyM2ZhMjJhNmI0ZmI2OGY1MDc5ZWQ2Nzg5ZjE3Nj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=HoOcucPUeNDQyi9pBLLDkKjgLZOHL9uv3ZTnxHek15opkTn6%7EFcXHhrh7QldcnBRyY85NO0TzuERgt8FGhjXnebHNhYEiLpYfp38KQ7wXJhkw-M3zDGKGN85o2sClIiD2D-qfLVOeya-odzK38c3IRvNBEp6GgGvmUVDqgt8rz1laHDMtT6UjKQF-ZlfB5DN1XVXwCG4s2MLt-8aIEEmkyMKxo9Jg3hvTrnQWlCF2VF23Nvdr1iq7gfh4mNyswr4tsWUavzlB6yjO4QdHWMWydo5MHNCkUTiyd1wNcWZSQLmgt2A-y0Af8mi-58t%7EWB5mcA0xPV%7EyIE4E3mapusT7A__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-03-26 23:00:13,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 23:00:16,374 - filelock - DEBUG - Attempting to release lock 2268870317456 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 23:00:16,374 - filelock - DEBUG - Lock 2268870317456 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 23:00:18,671 - filelock - DEBUG - Attempting to release lock 2268870299664 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 23:00:18,672 - filelock - DEBUG - Lock 2268870299664 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 23:00:18,674 - QaEngine - ERROR - 模型加载失败: deepseek-ai/deepseek-math-7b-base does not appear to have files named ('model-00001-of-00002.safetensors', 'model-00002-of-00002.safetensors'). Checkout 'https://huggingface.co/deepseek-ai/deepseek-math-7b-base/tree/refs/pr/1'for available files.
+2025-03-26 23:00:46,044 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000002114E2A7F60>
+2025-03-26 23:00:46,044 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000002114E2A7F60> completed
+2025-03-26 23:00:46,044 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002114E2BE2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002111B2E8360>, deterministic=True)
+2025-03-26 23:00:46,045 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002114E2BE2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002111B2E8360>, deterministic=True) completed
+2025-03-26 23:00:46,045 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002114E2BE2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:00:46,045 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002114E2BE2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:00:46,045 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002114E2BE2F0>)
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002114E2BE2F0>) completed
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002114E2CEDC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002114E2CEDC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002114E2CEDC0>)
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002114E2CEDC0>) completed
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002114E2CEDC0>)
+2025-03-26 23:00:46,046 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002114E2CEDC0>) completed
+2025-03-26 23:00:46,047 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002114E2BE2F0>)
+2025-03-26 23:00:46,047 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002114E2BE2F0>) completed
+2025-03-26 23:00:46,047 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:00:46,048 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:00:46,048 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002114E2BE2F0>)
+2025-03-26 23:00:46,048 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002114E2BE2F0>) completed
+2025-03-26 23:00:46,048 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002114E2BE2F0>)
+2025-03-26 23:00:46,048 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002114E2BE2F0>) completed
+2025-03-26 23:00:46,049 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:00:46,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:00:56,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2025-03-26 23:01:06,400 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): huggingface.co:443
+2025-03-26 23:02:55,905 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001DAE8727F60>
+2025-03-26 23:02:55,906 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001DAE8727F60> completed
+2025-03-26 23:02:55,906 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DAE873E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DAB57B8360>, deterministic=True)
+2025-03-26 23:02:55,906 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DAE873E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DAB57B8360>, deterministic=True) completed
+2025-03-26 23:02:55,906 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DAE873E2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:02:55,907 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DAE873E2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:02:55,907 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DAE873E2F0>)
+2025-03-26 23:02:55,907 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DAE873E2F0>) completed
+2025-03-26 23:02:55,907 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DAE874EDC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:02:55,907 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DAE874EDC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:02:55,908 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DAE874EDC0>)
+2025-03-26 23:02:55,908 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DAE874EDC0>) completed
+2025-03-26 23:02:55,908 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DAE874EDC0>)
+2025-03-26 23:02:55,908 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DAE874EDC0>) completed
+2025-03-26 23:02:55,908 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DAE873E2F0>)
+2025-03-26 23:02:55,908 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DAE873E2F0>) completed
+2025-03-26 23:02:55,909 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:02:55,909 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:02:55,909 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DAE873E2F0>)
+2025-03-26 23:02:55,909 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DAE873E2F0>) completed
+2025-03-26 23:02:55,910 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DAE873E2F0>)
+2025-03-26 23:02:55,910 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DAE873E2F0>) completed
+2025-03-26 23:02:55,910 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:02:55,913 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:02:56,391 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 23:02:56,956 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 23:02:57,281 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 23:02:57,549 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 23:02:57,798 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 23:02:58,580 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 23:02:58,952 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:02:59,212 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:02:59,488 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 23:02:59,496 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:02:59,497 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:02:59,805 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/6779f1b605fed54c5115ab537563ac0943c265fe/model-00001-of-00002.safetensors HTTP/1.1" 302 0
+2025-03-26 23:02:59,807 - filelock - DEBUG - Attempting to acquire lock 2039716663312 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 23:02:59,808 - filelock - DEBUG - Lock 2039716663312 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 23:02:59,809 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 23:03:00,117 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/6779f1b605fed54c5115ab537563ac0943c265fe/model-00002-of-00002.safetensors HTTP/1.1" 302 0
+2025-03-26 23:03:00,121 - filelock - DEBUG - Attempting to acquire lock 2039716680464 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 23:03:00,122 - filelock - DEBUG - Lock 2039716680464 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 23:03:00,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-03-26 23:03:00,998 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1743004979&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDk3OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYjhlOTYzMzJmM2NkY2RiZDFmNGVkMTJjZjk0N2M1YTdjMWJiZTY1MWE5YzYzODAyZDg3ZWUxMThlMzQxZGMwND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=KoXia44CXnrMWMj278MeNZLYLEgfAOnNky9PtNT7zeN4lPFcMc1yZrmvLkh9D1C58ZCItahyRLSivS0Mysx7eg-U~8Dx8AedzpQbU0HbdB1E1gBOO~11N9vgHFVFnquhQLXnZ4pzqkLHjMb7gIRGGUZ9XZQYb3hKkCl2XY52xlOIZsTQYqH7BOsr4y3CA12-eJSQUxBYNlIwgdV7xfrQD0q24NQ0Ly8xCwOpra-LU4acGhnNFyD0NK4xJfAMrBHMUBv-OQ9JFhJp~V0xXsCVKM-PLQ4qmqTmMC5o4icQ0rRLgjsc2eyf5X8m1UYXYC~JHCvr8vf5mFovoffU7we8mg__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 206 9223658696
+2025-03-26 23:03:01,005 - urllib3.connectionpool - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/a9/f5/a9f5409864ae20e8f6328bde9f437ca92e58afd13c274bcd4f951f699a17d114/a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00002.safetensors%3B+filename%3D%22model-00002-of-00002.safetensors%22%3B&Expires=1743004979&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzAwNDk3OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2E5L2Y1L2E5ZjU0MDk4NjRhZTIwZThmNjMyOGJkZTlmNDM3Y2E5MmU1OGFmZDEzYzI3NGJjZDRmOTUxZjY5OWExN2QxMTQvYTA0YjM1YjY2N2NjNDdmY2VjNjdlY2MxMGRlNDM4ZGY3MDAyM2ZhMjJhNmI0ZmI2OGY1MDc5ZWQ2Nzg5ZjE3Nj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=fmjFc5iytulH1tR6m~hVpncOquxnXZuLVwyIcWdNdVFxpevB9F-N29G42rgw4IPgp~9miDKXrQWjMUel~R1QFbmqLR4xzxO1BxZfts2LmD9mDQ9afiLi7hzVY-BMtNTnbswvuaqqbNUegwwNFb-Bpt5iPlTKpN8vOU6jlC3nurK5XpXUE4l1Cro6alEGHbz4-a76LN9iMWiEyF6ng6kpVO7BfXcmE6nDOZSi3GVTKLY0tbWxUxQyINrdJ1AFGRhHRDRNrpb97HTsHergEQGbe4DY9Lm-TE~1hJPzcgnW1m0S5-KmVY5~suo9T5EFhshAo9mJ8tqwv9~coYc3o5hU4Q__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 206 3139583840
+2025-03-26 23:15:59,647 - filelock - DEBUG - Attempting to release lock 2039716680464 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 23:15:59,648 - filelock - DEBUG - Lock 2039716680464 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\a04b35b667cc47fcec67ecc10de438df70023fa22a6b4fb68f5079ed6789f176.lock
+2025-03-26 23:30:07,631 - filelock - DEBUG - Attempting to release lock 2039716663312 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 23:30:07,631 - filelock - DEBUG - Lock 2039716663312 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b8e96332f3cdcdbd1f4ed12cf947c5a7c1bbe651a9c63802d87ee118e341dc04.lock
+2025-03-26 23:30:23,951 - urllib3.connectionpool - DEBUG - Resetting dropped connection: huggingface.co
+2025-03-26 23:30:24,303 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-03-26 23:30:24,308 - filelock - DEBUG - Attempting to acquire lock 2039716685904 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b605732c455d72a41c4538867012531876194411.lock
+2025-03-26 23:30:24,309 - filelock - DEBUG - Lock 2039716685904 acquired on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b605732c455d72a41c4538867012531876194411.lock
+2025-03-26 23:30:24,533 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /deepseek-ai/deepseek-math-7b-base/resolve/main/generation_config.json HTTP/1.1" 200 121
+2025-03-26 23:30:24,537 - filelock - DEBUG - Attempting to release lock 2039716685904 on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b605732c455d72a41c4538867012531876194411.lock
+2025-03-26 23:30:24,538 - filelock - DEBUG - Lock 2039716685904 released on C:\Users\11041\.cache\huggingface\hub\.locks\models--deepseek-ai--deepseek-math-7b-base\b605732c455d72a41c4538867012531876194411.lock
+2025-03-26 23:30:24,585 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2025-03-26 23:30:24,587 - accelerate.big_modeling - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-03-26 23:30:24,588 - QaEngine - ERROR - 模型加载失败: You can't move a model that has some modules offloaded to cpu or disk.
+2025-03-26 23:35:57,007 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001729A167F60>
+2025-03-26 23:35:57,009 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001729A167F60> completed
+2025-03-26 23:35:57,009 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001729A17E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000172E7028360>, deterministic=True)
+2025-03-26 23:35:57,009 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001729A17E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x00000172E7028360>, deterministic=True) completed
+2025-03-26 23:35:57,010 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001729A17E2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:35:57,010 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001729A17E2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:35:57,010 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001729A17E2F0>)
+2025-03-26 23:35:57,010 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001729A17E2F0>) completed
+2025-03-26 23:35:57,011 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001729A18ADC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:35:57,012 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001729A18ADC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:35:57,012 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001729A18ADC0>)
+2025-03-26 23:35:57,013 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001729A18ADC0>) completed
+2025-03-26 23:35:57,013 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001729A18ADC0>)
+2025-03-26 23:35:57,013 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001729A18ADC0>) completed
+2025-03-26 23:35:57,013 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001729A17E2F0>)
+2025-03-26 23:35:57,013 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001729A17E2F0>) completed
+2025-03-26 23:35:57,013 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:35:57,014 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:35:57,014 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001729A17E2F0>)
+2025-03-26 23:35:57,014 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001729A17E2F0>) completed
+2025-03-26 23:35:57,014 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001729A17E2F0>)
+2025-03-26 23:35:57,015 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001729A17E2F0>) completed
+2025-03-26 23:35:57,015 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:35:57,017 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:36:07,234 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2025-03-26 23:36:17,373 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): huggingface.co:443
+2025-03-26 23:36:26,125 - QaEngine - ERROR - 模型加载失败: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/deepseek-ai/deepseek-math-7b-base (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')))"), '(Request ID: 50e0ca9a-d44b-4f73-bc97-8dd3f63648d2)')
+2025-03-26 23:36:30,131 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001ABA1667F60>
+2025-03-26 23:36:30,132 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001ABA1667F60> completed
+2025-03-26 23:36:30,132 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001ABA167E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001ABEE558360>, deterministic=True)
+2025-03-26 23:36:30,132 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001ABA167E2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001ABEE558360>, deterministic=True) completed
+2025-03-26 23:36:30,133 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001ABA167E2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:36:30,133 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001ABA167E2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:36:30,133 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001ABA167E2F0>)
+2025-03-26 23:36:30,134 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001ABA167E2F0>) completed
+2025-03-26 23:36:30,134 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001ABA168ADC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:36:30,134 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001ABA168ADC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:36:30,134 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001ABA168ADC0>)
+2025-03-26 23:36:30,134 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001ABA168ADC0>) completed
+2025-03-26 23:36:30,135 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001ABA168ADC0>)
+2025-03-26 23:36:30,135 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001ABA168ADC0>) completed
+2025-03-26 23:36:30,135 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001ABA167E2F0>)
+2025-03-26 23:36:30,136 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001ABA167E2F0>) completed
+2025-03-26 23:36:30,136 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:36:30,137 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:36:30,137 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001ABA167E2F0>)
+2025-03-26 23:36:30,137 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001ABA167E2F0>) completed
+2025-03-26 23:36:30,137 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001ABA167E2F0>)
+2025-03-26 23:36:30,138 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001ABA167E2F0>) completed
+2025-03-26 23:36:30,138 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:36:30,140 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:36:35,329 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2025-03-26 23:36:37,717 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 23:36:38,129 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 23:36:38,705 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 23:36:39,082 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 23:36:39,473 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 23:36:39,801 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:36:40,558 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:36:40,928 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 23:36:49,087 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-03-26 23:36:49,125 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2025-03-26 23:36:49,127 - QaEngine - ERROR - 模型加载失败: 'APILogger' object has no attribute 'success'
+2025-03-26 23:37:07,433 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001E6EB8A7F60>
+2025-03-26 23:37:07,435 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001E6EB8A7F60> completed
+2025-03-26 23:37:07,435 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E6EB8BA2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001E6B88C8360>, deterministic=True)
+2025-03-26 23:37:07,435 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E6EB8BA2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001E6B88C8360>, deterministic=True) completed
+2025-03-26 23:37:07,436 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E6EB8BA2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:37:07,436 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E6EB8BA2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:37:07,436 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001E6EB8BA2F0>)
+2025-03-26 23:37:07,436 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001E6EB8BA2F0>) completed
+2025-03-26 23:37:07,437 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001E6EB8CADC0>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:37:07,439 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001E6EB8CADC0>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:37:07,440 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001E6EB8CADC0>)
+2025-03-26 23:37:07,440 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001E6EB8CADC0>) completed
+2025-03-26 23:37:07,440 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001E6EB8CADC0>)
+2025-03-26 23:37:07,440 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001E6EB8CADC0>) completed
+2025-03-26 23:37:07,441 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E6EB8BA2F0>)
+2025-03-26 23:37:07,441 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E6EB8BA2F0>) completed
+2025-03-26 23:37:07,441 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:37:07,442 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:37:07,442 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001E6EB8BA2F0>)
+2025-03-26 23:37:07,442 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001E6EB8BA2F0>) completed
+2025-03-26 23:37:07,443 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E6EB8BA2F0>)
+2025-03-26 23:37:07,443 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E6EB8BA2F0>) completed
+2025-03-26 23:37:07,443 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:37:07,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:37:07,954 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 23:37:08,462 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 23:37:08,915 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 23:37:09,238 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 23:37:09,634 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 23:37:09,959 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 23:37:10,354 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:37:10,990 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:37:11,653 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 23:37:22,604 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-03-26 23:37:22,670 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2025-03-26 23:37:22,675 - QaEngine - ERROR - 模型加载失败: 'APILogger' object has no attribute 'success'
+2025-03-26 23:44:53,169 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001E9F243BF60>
+2025-03-26 23:44:53,171 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001E9F243BF60> completed
+2025-03-26 23:44:53,171 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E9F244A2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001E9BF4E8360>, deterministic=True)
+2025-03-26 23:44:53,172 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E9F244A2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001E9BF4E8360>, deterministic=True) completed
+2025-03-26 23:44:53,172 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E9F244A2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:44:53,172 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001E9F244A2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:44:53,172 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001E9F244A2F0>)
+2025-03-26 23:44:53,172 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001E9F244A2F0>) completed
+2025-03-26 23:44:53,172 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001E9F2452E40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:44:53,175 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001E9F2452E40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:44:53,175 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001E9F2452E40>)
+2025-03-26 23:44:53,175 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001E9F2452E40>) completed
+2025-03-26 23:44:53,175 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001E9F2452E40>)
+2025-03-26 23:44:53,176 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001E9F2452E40>) completed
+2025-03-26 23:44:53,176 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E9F244A2F0>)
+2025-03-26 23:44:53,176 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E9F244A2F0>) completed
+2025-03-26 23:44:53,176 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:44:53,177 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:44:53,177 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001E9F244A2F0>)
+2025-03-26 23:44:53,178 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001E9F244A2F0>) completed
+2025-03-26 23:44:53,178 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E9F244A2F0>)
+2025-03-26 23:44:53,179 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001E9F244A2F0>) completed
+2025-03-26 23:44:53,179 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:44:53,182 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:44:54,152 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 23:44:54,854 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 23:44:55,251 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 23:44:55,570 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 23:44:55,823 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 23:44:56,117 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 23:44:56,430 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:44:56,766 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:44:58,123 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 23:45:05,810 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-03-26 23:45:05,859 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2025-03-26 23:45:05,865 - QaEngine - INFO - 模型加载完成
+2025-03-26 23:45:33,509 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x000001CF3E49BF60>
+2025-03-26 23:45:33,513 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x000001CF3E49BF60> completed
+2025-03-26 23:45:33,513 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001CF3E4AE2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001CF0B518360>, deterministic=True)
+2025-03-26 23:45:33,514 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001CF3E4AE2F0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001CF0B518360>, deterministic=True) completed
+2025-03-26 23:45:33,514 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001CF3E4AE2F0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-03-26 23:45:33,514 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001CF3E4AE2F0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-03-26 23:45:33,515 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001CF3E4AE2F0>)
+2025-03-26 23:45:33,515 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001CF3E4AE2F0>) completed
+2025-03-26 23:45:33,515 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001CF3E4B2E40>, 'PRAGMA read_uncommitted', [])
+2025-03-26 23:45:33,517 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001CF3E4B2E40>, 'PRAGMA read_uncommitted', []) completed
+2025-03-26 23:45:33,517 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001CF3E4B2E40>)
+2025-03-26 23:45:33,517 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001CF3E4B2E40>) completed
+2025-03-26 23:45:33,518 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001CF3E4B2E40>)
+2025-03-26 23:45:33,518 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001CF3E4B2E40>) completed
+2025-03-26 23:45:33,518 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001CF3E4AE2F0>)
+2025-03-26 23:45:33,519 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001CF3E4AE2F0>) completed
+2025-03-26 23:45:33,519 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-26 23:45:33,519 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-26 23:45:33,520 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001CF3E4AE2F0>)
+2025-03-26 23:45:33,520 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001CF3E4AE2F0>) completed
+2025-03-26 23:45:33,520 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001CF3E4AE2F0>)
+2025-03-26 23:45:33,521 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001CF3E4AE2F0>) completed
+2025-03-26 23:45:33,521 - QaEngine - INFO - 正在加载语言模型...
+2025-03-26 23:45:33,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-26 23:45:33,838 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-26 23:45:34,320 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-26 23:45:34,686 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base HTTP/1.1" 200 2034
+2025-03-26 23:45:34,947 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/main HTTP/1.1" 200 1199
+2025-03-26 23:45:35,211 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/discussions?p=0 HTTP/1.1" 200 714
+2025-03-26 23:45:35,451 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/commits/refs%2Fpr%2F1 HTTP/1.1" 200 2164
+2025-03-26 23:45:35,724 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:45:35,968 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/refs%2Fpr%2F1/model.safetensors.index.json HTTP/1.1" 200 0
+2025-03-26 23:45:36,282 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/deepseek-math-7b-base/revision/refs%2Fpr%2F1 HTTP/1.1" 200 2191
+2025-03-26 23:45:47,739 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /deepseek-ai/deepseek-math-7b-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-03-26 23:45:47,815 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2025-03-26 23:45:47,821 - QaEngine - INFO - 模型加载完成
