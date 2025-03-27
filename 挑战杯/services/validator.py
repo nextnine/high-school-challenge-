@@ -1,6 +1,6 @@
 import re
 from fastapi import HTTPException
-from config import settings
+from config.settings import settings
 
 class InputValidator:
     def __init__(self):

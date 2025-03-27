@@ -16,7 +16,13 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
 
 def get_password_hash(password: str) -> str:
     """生成密码哈希"""
-    return pwd_context.hash(password)
+    try:
+        hashed = pwd_context.hash(password)
+        print("🌐 哈希成功:", hashed[:30], "...")
+        return hashed
+    except Exception as e:
+        print("🔴 哈希失败:", str(e))
+        raise
 
 def create_access_token(data: dict) -> str:
     """创建JWT令牌"""
