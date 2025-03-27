@@ -16,23 +16,41 @@ SQLite 数据库存储用户与聊天记录
 目录结构
 
 ├─ .env                # 环境变量配置文件
+
 ├─ main.py             # FastAPI 应用入口
+
 ├─ text.html           # 测试 WebSocket 前端页面
+
 ├─ config
+
 │   ├─ settings.py     # 项目设置（模型名、数据库URL、JWT等）
+
 │   └─ security.py     # 加密、token 创建、WebSocket鉴权
+
 ├─ services
+
 │   ├─ qa_engine.py    # 模型加载与回答生成逻辑
+
 │   └─ validator.py    # 输入验证（敏感词、长度、字符过滤）
+
 ├─ database
+
 │   ├─ models.py       # SQLAlchemy ORM 模型定义
+
 │   ├─ session.py      # 数据库会话，异步引擎
+
 │   └─ crud.py         # 增删查改操作封装
+
 ├─ routers
+
 │   ├─ auth.py         # 用户注册、获取 token 等路由
+
 │   ├─ chat.py         # WebSocket 聊天路由
+
 │   └─ health.py       # 健康检查路由
+
 ├─ .venv               # (可选) 你的虚拟环境文件夹
+
 
 注意：.venv 文件夹默认不会上传到 Git 仓库；此处仅说明你可能在该文件夹中创建虚拟环境。
 
@@ -58,8 +76,8 @@ python -m venv .venv
 
 
 pip install fastapi uvicorn[standard] sqlalchemy aiosqlite passlib cryptography python-multipart 
-pip install transformers accelerate 
-# 以上包含大部分所需，若缺少再补充
+
+pip install transformers accelerate （可能有遗漏）
 
 配置环境变量
 在项目根目录下有一个 .env 文件，包含例如：
