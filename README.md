@@ -86,7 +86,9 @@ env
 
 #模型配置
 DEEPSEEK_API_KEY=xxx
+
 MODEL_NAME=deepseek-ai/deepseek-math-7b-base
+
 MODEL_PRECISION=float16
 
 #数据库配置
@@ -94,11 +96,14 @@ DATABASE_URL=sqlite+aiosqlite:///./tutor.db
 
 #安全配置
 JWT_SECRET=your_jwt_secret_key
+
 JWT_ALGORITHM=HS256
+
 ACCESS_TOKEN_EXPIRE=30
 
 #系统配置
 DEBUG=True
+
 MAX_GPU_MEMORY=0.8
 可以根据需求修改。
 如不需要访问特定模型，可将 MODEL_NAME 改成 "distilgpt2" 等小模型做快速测试。
@@ -131,7 +136,9 @@ URL: POST /register_999
 
 {
   "username": "test",
+  
   "email": "test@example.com",
+  
   "password": "mypassword"
 }
 返回: 用户的基本信息（不包含密码）
@@ -145,11 +152,13 @@ URL: POST /token
 
 
 username=test
+
 password=mypassword
 返回:
 
 {
   "access_token": "...",
+  
   "token_type": "bearer"
 }
 3. WebSocket 聊天 (/chat/ws)
@@ -168,7 +177,9 @@ ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
 
 {
   "type": "system",
+  
   "session_id": "<UUID>",
+  
   "message": "连接已建立"
 }
 然后发送文本字符串（问题）给服务器，服务器会调用 AI 模型生成答案，返回：
@@ -176,7 +187,9 @@ ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
 
 {
   "type": "response",
+  
   "session_id": "...",
+  
   "content": "模型回答"
 }
 测试 WebSocket (text.html)
