@@ -26,7 +26,9 @@ class QaEngine:
                 settings.MODEL_NAME,
                 torch_dtype=getattr(torch, settings.MODEL_PRECISION),
                 device_map="auto",
-                # 新增以下参数
+                #max_memory={0: "12GiB"},  # 根据您的GPU调整
+                #offload_folder=None,  # 禁用卸载
+                
                 offload_folder=settings.MODEL_OFFLOAD_FOLDER,
                 use_safetensors=settings.USE_SAFETENSORS,
                 low_cpu_mem_usage=settings.LOW_CPU_MEM_USAGE
@@ -43,12 +45,14 @@ class QaEngine:
         session_id: str
     ) -> AsyncGenerator[str, None]:
         """生成回答并保存记录"""
+        print("🔍 收到问题:", question)
         try:
             # 准备输入
             inputs = self.tokenizer(
                 question, 
                 return_tensors="pt"
             ).to(self.device)
+            print("🧠 Tokenization 完成")
             
             # 生成回答
             with torch.no_grad():
@@ -58,11 +62,16 @@ class QaEngine:
                     temperature=0.7,
                     top_p=0.9
                 )
+            print("🎯 模型生成完成")
             
             answer = self.tokenizer.decode(
                 outputs[0], 
                 skip_special_tokens=True
             )
+            print("🔍 生成回答:", answer)
+            if not answer.strip():
+                print("⚠️ 模型返回了空回答")
+                answer = "（⚠️ 抱歉，我暂时无法回答这个问题）"
             
             # 保存到数据库
             async for session in get_db():

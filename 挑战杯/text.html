@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AI Tutor Chat Test</title>
+</head>
+<body>
+  <h2>AI WebSocket Chat</h2>
+  <label>Token: <input type="text" id="token" size="80"></label><br>
+  <button onclick="connectWS()">连接 WebSocket</button><br><br>
+  
+  <textarea id="log" cols="100" rows="20" readonly></textarea><br>
+  <input type="text" id="message" placeholder="输入问题" size="80">
+  <button onclick="sendMessage()">发送</button>
+
+  <script>
+    let ws = null;
+    function log(msg) {
+      const logBox = document.getElementById('log');
+      logBox.value += msg + '\n';
+      logBox.scrollTop = logBox.scrollHeight;
+    }
+
+    function connectWS() {
+      const token = document.getElementById('token').value;
+      const url = `ws://127.0.0.1:8000/chat/ws?token=${token}`;
+      ws = new WebSocket(url);
+      ws.onopen = () => log("✅ 已连接 WebSocket");
+      ws.onmessage = (event) => {
+        try {
+          const data = JSON.parse(event.data); // 检查返回是否为有效 JSON
+          console.log("✅ 解析成功，内容：", data);
+        } catch (e) {
+          console.error("❌ 无法解析 JSON: ", event.data);
+        }
+      
+        log("📥 收到: " + event.data);
+      };
+      ws.onerror = (err) => log("❌ 错误: " + err);
+      ws.onclose = () => log("🔌 连接已关闭");
+    }
+
+    function sendMessage() {
+      const text = document.getElementById('message').value;
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.send(text);
+        log("📤 发送: " + text);
+      } else {
+        log("⚠️ WebSocket 未连接");
+      }
+    }
+  </script>
+</body>
+</html>

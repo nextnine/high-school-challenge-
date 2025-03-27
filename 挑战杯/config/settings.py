@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     
     # 应用基础配置
     APP_NAME: str = "AI Tutor"
+    APP_VERSION: str = "1.0.0"
     DEBUG: bool = True
     
     # 数据库配置
@@ -38,5 +39,6 @@ class Settings(BaseSettings):
     
     class Config:
         env_file = ".env"
+        #case_sensitive = True
 
 settings = Settings()
