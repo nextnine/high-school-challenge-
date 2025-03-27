@@ -65,10 +65,10 @@ SQLite 数据库存储用户与聊天记录
 
 
 python -m venv .venv
+
 然后激活虚拟环境 (Windows PowerShell)：
-
-
 .\.venv\Scripts\activate
+
 若使用 VSCode，通常会自动探测 .venv 并激活环境。
 
 3. 安装依赖
@@ -84,20 +84,20 @@ pip install transformers accelerate （可能有遗漏）
 
 env
 
-# 模型配置
+#模型配置
 DEEPSEEK_API_KEY=xxx
 MODEL_NAME=deepseek-ai/deepseek-math-7b-base
 MODEL_PRECISION=float16
 
-# 数据库配置
+#数据库配置
 DATABASE_URL=sqlite+aiosqlite:///./tutor.db
 
-# 安全配置
+#安全配置
 JWT_SECRET=your_jwt_secret_key
 JWT_ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE=30
 
-# 系统配置
+#系统配置
 DEBUG=True
 MAX_GPU_MEMORY=0.8
 可以根据需求修改。
