@@ -1,4 +1,5 @@
 AI Tutor 项目说明
+
 本项目是一个基于 FastAPI + WebSocket 实现的 AI 聊天系统，具备以下功能：
 
 用户注册、登录获取 Token
@@ -85,6 +86,7 @@ pip install transformers accelerate （可能有遗漏）
 env
 
 #模型配置
+
 DEEPSEEK_API_KEY=xxx
 
 MODEL_NAME=deepseek-ai/deepseek-math-7b-base
@@ -92,9 +94,11 @@ MODEL_NAME=deepseek-ai/deepseek-math-7b-base
 MODEL_PRECISION=float16
 
 #数据库配置
+
 DATABASE_URL=sqlite+aiosqlite:///./tutor.db
 
 #安全配置
+
 JWT_SECRET=your_jwt_secret_key
 
 JWT_ALGORITHM=HS256
@@ -102,9 +106,11 @@ JWT_ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE=30
 
 #系统配置
+
 DEBUG=True
 
 MAX_GPU_MEMORY=0.8
+
 可以根据需求修改。
 如不需要访问特定模型，可将 MODEL_NAME 改成 "distilgpt2" 等小模型做快速测试。
 
@@ -113,6 +119,7 @@ MAX_GPU_MEMORY=0.8
 
 
 uvicorn main:app --reload
+
 控制台会输出：
 
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
@@ -126,7 +133,9 @@ http://127.0.0.1:8000/health
 健康检查接口
 
 功能说明
+
 1. 用户注册 (/register_999)
+   
 URL: POST /register_999
 
 说明: 注册新用户
@@ -141,9 +150,11 @@ URL: POST /register_999
   
   "password": "mypassword"
 }
+
 返回: 用户的基本信息（不包含密码）
 
 2. 用户登录获取 Token (/token)
+
 URL: POST /token
 
 说明: 登录并获得 JWT Token，用于后续 WebSocket 连接
@@ -154,14 +165,18 @@ URL: POST /token
 username=test
 
 password=mypassword
+
 返回:
 
 {
+
   "access_token": "...",
   
   "token_type": "bearer"
+  
 }
 3. WebSocket 聊天 (/chat/ws)
+
 URL: ws://127.0.0.1:8000/chat/ws?token=xxx
 
 说明: 建立 WebSocket 长连接，并发送文本消息与 AI 模型交互。
@@ -172,6 +187,7 @@ URL: ws://127.0.0.1:8000/chat/ws?token=xxx
 
 
 ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
+
 连接成功后，会返回一条 JSON 消息：
 
 
@@ -182,6 +198,7 @@ ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
   
   "message": "连接已建立"
 }
+
 然后发送文本字符串（问题）给服务器，服务器会调用 AI 模型生成答案，返回：
 
 
@@ -192,7 +209,9 @@ ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
   
   "content": "模型回答"
 }
+
 测试 WebSocket (text.html)
+
 项目自带一个简单的 text.html，可在浏览器中打开：
 
 有一个“Token”输入框，粘贴 /token 接口获取的 JWT
@@ -202,6 +221,7 @@ ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
 在下方输入你的问题，点击“发送”，可查看后端返回的回答。
 
 数据持久化
+
 数据库: 使用 SQLite，文件名默认是 tutor.db。
 
 用户表: users
@@ -211,6 +231,7 @@ ws://127.0.0.1:8000/chat/ws?token=<你的JWT>
 每次模型生成的回答，都会在 chat_history 保存一条记录，含 question, answer, user_id, timestamp 等。
 
 常见问题
+
 WebSocket 连接失败
 
 确认安装了 uvicorn[standard] 或 websockets 库，不然会报 Unsupported upgrade request。
@@ -230,6 +251,7 @@ Token 无效
 修改 models.py 后，最好删除或迁移旧的 tutor.db，再次运行会自动创建表。
 
 版本信息
+
 Python: 3.13.1
 
 操作系统: Windows 11
@@ -251,4 +273,5 @@ transformers / accelerate
 其余详见 requirements.txt
 
 结语
+
 完成以上步骤，就可以在本地运行 AI Tutor 服务，注册用户、获取 Token，并通过 WebSocket 实时与模型交互。若有需要进一步扩展，可以在 qa_engine.py 中替换或微调模型，或在前端引入更完善的界面交互。祝使用愉快！
